@@ -13,7 +13,7 @@
         rel="stylesheet">
 </head>
 
-<body class="bg-black">
+<body class="bg-black overflow-x-hidden">
     <div class="flex relative flex-col h-screen">
         <div class="my-5 mx-10 flex items-center justify-between">
             <header class="lg:w-full flex justify-between w-full">
@@ -25,47 +25,43 @@
             </header>
         </div>
 
-        <div class="bg-FFC300">
-            <div class="flex flex-col items-center justify-center lg:w-[50%] mx-auto bg-FFC300 py-24">
+        <div class="bg-FFC300 w-screen">
+            <div class="flex flex-col items-center justify-center mx-auto py-24 max-w-screen-xl">
                 <h1 class="text-black font-bold text-3xl text-center xl:text-6xl lg:text-4xl flex">Olá, seja bem-vindo ao EasyPost.</h1>
-                <div class="w-screen">
-                    <div class="flex flex-col lg:w-[100%] mx-auto mt-10 py-10">
-                        <div class="flex items-center mx-7">
-                            <div class="flex flex-row items-center gap-6">
-                                <h3 class="text-gray-900 font-semibold lg:text-2xl xl:text-3xl text-md">Sou um Micro-SaaS que ira te ajudar a criar varios posts de forma automatica. Eu sou usado para quem pretende compartilhar diversos posts agendados em quantos grupos ou redes sociais quiserem.</h3>
+                <div class="w-screen flex lg:flex-row flex-col items-center justify-center">
+                    <div class="flex flex-col lg:w-1/2">
+                        <div class="flex flex-col mt-10 py-10 ">
+                            <div class="flex items-center mx-7">
+                                <div class="flex flex-row items-center gap-6">
+                                    <h3 class="text-gray-900 font-semibold lg:text-2xl xl:text-4xl text-md">Sou um Micro-SaaS que irá te ajudar a criar vários posts de forma automática. Eu sou usado para quem pretende compartilhar diversos posts agendados em quantos grupos ou redes sociais quiserem.</h3>
+                                </div>
                             </div>
                         </div>
+                        <div class="flex flex-col items-center pt-8 pb-2 lg:flex-row mx-5">
+                            <ul class="flex flex-col gap-5">
+                                <li class="flex items-center gap-1 duration-700 ease-out delay-300 transform transition-all visible translate-y-0 scale-100 opacity-100">
+                                    <div class="w-10">
+                                        <span class="inline-flex items-center justify-center w-7 h-7 mr-2 bg-[#1D1D1D] rounded-full"><span class="lg:text-xl text-sm text-white font-bold">✓</span></span>
+                                    </div>
+                                    <p class="text-[19px] text-[#1D1D1D] font-semibold text-sm lg:text-xl">Poste em vários grupos e páginas do Facebook e em seu feed do Instagram de uma só vez!</p>
+                                </li>
+                                <li class="flex items-center gap-1 duration-700 ease-out delay-300 transform transition-all visible translate-y-0 scale-100 opacity-100">
+                                    <div class="w-10">
+                                        <span class="inline-flex items-center justify-center w-7 h-7 mr-2 bg-[#1D1D1D] rounded-full"><span class="lg:text-xl text-sm text-white font-bold">✓</span></span>
+                                    </div>
+                                    <p class="text-[19px] text-[#1D1D1D] font-semibold text-sm lg:text-xl">Encontre mais pessoas interessadas em se tornar seus clientes!</p>
+                                </li>
+                                <li class="flex items-center gap-1 duration-700 ease-out delay-300 transform transition-all visible translate-y-0 scale-100 opacity-100">
+                                    <div class="w-10">
+                                        <span class="inline-flex items-center justify-center w-7 h-7 mr-2 bg-[#1D1D1D] rounded-full"><span class="lg:text-xl text-sm text-white font-bold">✓</span></span>
+                                    </div>
+                                    <p class="text-[19px] text-[#1D1D1D] font-semibold text-sm lg:text-xl">Agende seus posts para serem feitos automaticamente!</p>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
-                    <div class="flex flex-col items-center pt-8 pb-2 lg:flex-row mx-5">
-                        <ul class="flex flex-col gap-5">
-                            <li
-                                class="flex items-center gap-1 duration-700 ease-out delay-300 transform transition-all visible translate-y-0 scale-100 opacity-100">
-                                <div class="w-10">
-                                    <span
-                                        class="inline-flex items-center justify-center w-7 h-7 mr-2 bg-[#1D1D1D] rounded-full"><span
-                                            class="lg:text-xl text-sm text-white font-bold">✓</span></span>
-                                </div>
-                                <p class="text-[19px] text-[#1D1D1D] font-semibold text-sm lg:text-xl">Poste em vários grupos e páginas do Facebook e em seu feed do Instagram de uma só vez!</p>
-                            </li>
-                            <li
-                                class="flex items-center gap-1 duration-700 ease-out delay-300 transform transition-all visible translate-y-0 scale-100 opacity-100">
-                                <div class="w-10">
-                                    <span
-                                        class="inline-flex items-center justify-center w-7 h-7 mr-2 bg-[#1D1D1D] rounded-full"><span
-                                        class="lg:text-xl text-sm text-white font-bold">✓</span></span>
-                                </div>
-                                <p class="text-[19px] text-[#1D1D1D] font-semibold text-sm lg:text-xl">Encontre mais pessoas interessadas em se tornar seus clientes!</p>
-                            </li>
-                            <li
-                                class="flex items-center gap-1 duration-700 ease-out delay-300 transform transition-all visible translate-y-0 scale-100 opacity-100">
-                                <div class="w-10">
-                                    <span
-                                        class="inline-flex items-center justify-center w-7 h-7 mr-2 bg-[#1D1D1D] rounded-full"><span
-                                        class="lg:text-xl text-sm text-white font-bold">✓</span></span>
-                                </div>
-                                <p class="text-[19px] text-[#1D1D1D] font-semibold text-sm lg:text-xl">Agende seus posts para serem feitos automaticamente!</p>
-                            </li>
-                        </ul>
+                    <div class="flex items-center justify-center mt-[4rem]">
+                        <img src="{{asset('post.png')}}" class="flex items-center justify-center animated-image">
                     </div>
                 </div>
             </div>
